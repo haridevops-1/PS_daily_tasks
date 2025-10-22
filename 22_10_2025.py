@@ -1,0 +1,67 @@
+
+# 1. Write a function to split a given string on hyphens (-) and display each substring on a new line.
+# You must:
+# - Solve it using an inbuilt function (split()).
+# - Solve it without using any inbuilt split functions — by using loops and conditions.
+# Given:
+# sentence = "Emma-is-a-data-scientist"
+# Expected Output:
+# Emma
+# is
+# a
+# data
+# scientist
+
+# def split_without_inbuilt(text, delimiter='-'):
+#     result = ""  
+#     for char in text:
+
+#         if char == delimiter:
+#             print(result)
+#             result = ""
+#         else:
+            
+#             result += char
+#     if result:
+#         print(result)
+
+# # --- Execution ---
+# print("\n--- Without using inbuilt split() ---")
+# split_without_inbuilt(sentence)
+
+# 2. Write a Python program to reverse a given string in two ways:
+
+# reversed_str2 = ""
+# for char in str1:
+#     reversed_str2 = char + reversed_str2
+# print("Reversed without slicing:", reversed_str2)
+
+# 3. Write a Python program to count the number of consonants in a given string.
+
+# text = "Hello World"
+# consonants = "bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ"
+# count = 0
+# for char in text:
+#     if char in consonants:
+#         count += 1
+# print("\nNumber of consonants:", count)
+
+# 4.  Write a Python program to remove all spaces from a given string.
+
+# input = "Python is awesome"
+# no_spaces = ""
+# for char in input:
+#     if char != " ":
+#         no_spaces += char
+# print("\nString without spaces:", no_spaces)
+
+# 5. Write a Python program that asks the user to enter a password and checks if it is strong. A password is considered strong if:
+# It has at least 8 characters and  atleast one special character (!@#$%^&*).
+# Print whether the password is strong or not.
+
+# password = input("\nEnter your password: ")
+# special_chars = "!@#$%^&*"
+# if len(password) >= 8 and any(char in special_chars for char in password):
+#     print("Password is strong")
+# else:
+#     print("Password is not strong")
