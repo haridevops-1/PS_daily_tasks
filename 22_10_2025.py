@@ -30,7 +30,7 @@
 # split_without_inbuilt(sentence)
 
 # 2. Write a Python program to reverse a given string in two ways:
-
+# str1 = "Python"
 # reversed_str2 = ""
 # for char in str1:
 #     reversed_str2 = char + reversed_str2
